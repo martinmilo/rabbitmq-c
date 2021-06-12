@@ -1,0 +1,8 @@
+module RabbitMQC [system] {
+  header "amqp_openssl_bio.h"
+  header "amqp_private.h"
+  header "amqp_socket.h"
+  header "amqp_table.h"
+  header "amqp_time.h"
+  export *
+}
